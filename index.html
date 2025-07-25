@@ -30,14 +30,15 @@
       font-size: 1.5em;
       margin: 10px 0;
     }
-    a {
-      color: cyan;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+   a {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+a:hover, a:focus {
+  color: darkred;
+  text-decoration: underline;
+}
     .counter {
       font-family: monospace;
       font-weight: bold;
@@ -75,21 +76,20 @@
 </head>
 <body>
   <h1>WELCOME TO ALEX EASTWOOD-WILLIAMS.COM!!!!!!!!!!!!!!<br>!!!!!!!</h1><br>
-  <p><a href="https://alexeastwoodwilliams.com"><u></u>Return to the 21st century</u></a></p>
+  <p><marquee behavior="scroll" direction="left" scrollamount="10">Now optimised for Netscape Navigator 4.3 and Internet Explorer 5.0!!!</marquee></p>
+<p><a href="https://alexeastwoodwilliams.com">Back to the 21st century</a></p>
 
   <!-- Replace the src below with your actual low-res image -->
 <img src="https://raw.githubusercontent.com/alexeastwoodwilliams/1999/refs/heads/main/AEW1999.jpg"/><br>
 <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8688491/hiE5vMs.gif" alt="Under Construction" />
-
   
-
-  <marquee behavior="scroll" direction="left" scrollamount="10">Now optimised for Internet Explorer 5!!!</marquee>
 
   <div>
 <img src="https://media1.tenor.com/m/wLTK-fVE75UAAAAd/dancingbaby.gif alt="Dancing Baby" width="100" height="100" />
   </div>
 
   <div class="counter" id="hitCounter">Visitors: 0</div>
+
 
   <hr />
 
@@ -115,7 +115,9 @@
 <li><strong>05/04/1999 10:39pm:</strong> Apple Computers are finished. Who in their right mind is gonna buy one of those weird coloured computers? It's sad but their bankruptcy is inevitable at this point.</li>
 <li><strong>11/03/1999 4:07 PM:</strong> Just bought a book on Amazon. Cool idea, but they’re still pretty niche. I give them two years, tops.
     </ul>
-  </div>
+  </div><br>
+
+<a href="https://alexeastwoodwilliams.com">Back to the 21st century</a>
 
   <script>
     // Simple visitor counter using localStorage (resets per browser)
